@@ -19,7 +19,7 @@ var groupID = "";
 
 // "Fields"
 var bot = new DISCORD.Client({
-	token: botToken,
+	token: BOT_TOKEN,
 	autorun: true
 });
 
