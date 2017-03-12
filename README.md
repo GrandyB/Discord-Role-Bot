@@ -20,9 +20,13 @@ Feel free to fork it, change it, redistribute it how you wish etc - as of right 
 3. Realise that you need to change a bunch of defaults in the code!
 
 There's a bunch of fields that need tailoring to which game you wish to target, which group to create/put users in, which server, and what the bot's token is.
+
 GAME_NAME - e.g. "Rocket League"
+
 GROUP_NAME - e.g. "Currently playing "+GAME_NAME
+
 MAIN_SERVER - e.g. "185320586287775744" (get this by activating dev mode in Discord, then right clicking on server icon, copy ID)
+
 BOT_TOKEN - e.g. ifasijf09f2jf290af9jf2f0j2_f2h092fh0af9hsa0sf (a long string token, given by Discord's application developer control panel
 
 After those are in and you've got the bot authenticated on your server, you'll need to give it manage roles permission at the very least.
