@@ -13,3 +13,18 @@ It's not perfect - infact, it can seem a little bit buggy (I have to remove a us
 As mentioned above, it's not in a great - slightly spaghetti and not very extendable (but it does exactly what I needed it to do, and still does, so).
 
 Feel free to fork it, change it, redistribute it how you wish etc - as of right now (March 12th 2017) I have no plans on developing this into something more robust, so have at it!
+
+# Running it
+1. Have nodejs installed, install 'discord.io' from node, as well as 'request'.
+2. node rolebot.js
+3. Realise that you need to change a bunch of defaults in the code!
+
+There's a bunch of fields that need tailoring to which game you wish to target, which group to create/put users in, which server, and what the bot's token is.
+GAME_NAME - e.g. "Rocket League"
+GROUP_NAME - e.g. "Currently playing "+GAME_NAME
+MAIN_SERVER - e.g. "185320586287775744" (get this by activating dev mode in Discord, then right clicking on server icon, copy ID)
+BOT_TOKEN - e.g. ifasijf09f2jf290af9jf2f0j2_f2h092fh0af9hsa0sf (a long string token, given by Discord's application developer control panel
+
+After those are in and you've got the bot authenticated on your server, you'll need to give it manage roles permission at the very least.
+
+Hopefully it all works for you!
